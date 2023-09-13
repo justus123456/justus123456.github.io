@@ -1,0 +1,96 @@
+.cold {
+  border: 1px solid orange;
+  background-color: orange;
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.cold .yo h1 {
+  font-size: 60px;
+  color: white;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  padding-top: 40px;
+}
+
+.cold .yo p {
+  text-transform: capitalize;
+  font-size: 25px;
+  width: 400px;
+  color: black;
+  font-weight: bold;
+}
+
+.cold img {
+  position: relative;
+  margin-top: 8px;
+  margin-left: 230px;
+  height: 490px;
+}
+
+.cold .drop {
+  border: 1px solid white;
+  height: 130px;
+  width: 500px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.cold .drop .hope {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}
+
+.cold .drop .hope .gom {
+  border: 1px solid orangered;
+  font-size: 20px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  height: 40px;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 130px;
+  background-color: rgba(255, 68, 0, 0.151);
+  color: orangered;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.cold .drop .hope h3 {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.cold .drop .john {
+  padding-top: 10px;
+}
+
+.cold .drop .john i {
+  color: orangered;
+}
+
+.cold .drop .john input {
+  width: 300px;
+  border: 1px solid gray;
+  text-transform: capitalize;
+}
+
+.cold .drop .john button {
+  width: 120px;
+  border: 1px solid orangered;
+  color: white;
+  background-color: orangered;
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=bodyfood.css.map */

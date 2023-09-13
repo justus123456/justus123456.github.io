@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  padding-top: 25px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+nav ul li .gop {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: orange;
+}
+
+nav ul li .dop {
+  color: black;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+nav ul li .dop span {
+  font-weight: lighter;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul li .flop input {
+  padding-left: 10px;
+  border: 1px solid;
+  border-color: gray;
+  border-radius: 4px;
+}
+
+nav ul li .job {
+  border: 1px solid white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 4px;
+  font-weight: bold;
+  padding-bottom: 4px;
+  color: rgba(255, 255, 0, 0.863);
+  -webkit-box-shadow: -1px 1px 2px rgba(255, 255, 0, 0.74), 1px 1px 2px yellow;
+          box-shadow: -1px 1px 2px rgba(255, 255, 0, 0.74), 1px 1px 2px yellow;
+}
+
+nav ul li .sus {
+  color: black;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+nav ul li a .fa-truck {
+  color: rgba(255, 255, 0, 0.904);
+}
+
+nav ul li a .fa-map-marker-alt {
+  color: rgba(255, 255, 0, 0.801);
+}
+
+nav ul li a .fa-search {
+  color: rgba(255, 255, 0, 0.904);
+}
+
+nav ul li a .fa-user {
+  color: rgba(255, 255, 0, 0.904);
+}
+
+@media (max-width: 400px) {
+  nav {
+    padding-top: 10px;
+  }
+  nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    gap: 5px;
+  }
+  nav ul li .gop {
+    font-size: 10px;
+    text-transform: capitalize;
+    color: orange;
+  }
+  nav ul li .dop {
+    color: black;
+    text-transform: capitalize;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    display: none;
+  }
+  nav ul li .dop span {
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  nav ul li .flop input {
+    padding-left: 2px;
+    border: 1px solid;
+    border-color: gray;
+    border-radius: 4px;
+  }
+  nav ul li .job {
+    border: 1px solid white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 4px;
+    font-weight: bold;
+    padding-bottom: 4px;
+    color: rgba(255, 255, 0, 0.863);
+    -webkit-box-shadow: -1px 1px 2px rgba(255, 255, 0, 0.74), 1px 1px 2px yellow;
+            box-shadow: -1px 1px 2px rgba(255, 255, 0, 0.74), 1px 1px 2px yellow;
+  }
+  nav ul li .sus {
+    color: black;
+  }
+  nav ul li a {
+    text-decoration: none;
+  }
+  nav ul li a .fa-truck {
+    color: rgba(255, 255, 0, 0.904);
+  }
+  nav ul li a .fa-map-marker-alt {
+    color: rgba(255, 255, 0, 0.801);
+  }
+  nav ul li a .fa-search {
+    color: rgba(255, 255, 0, 0.904);
+  }
+  nav ul li a .fa-user {
+    color: rgba(255, 255, 0, 0.904);
+    display: none;
+  }
+}
+/*# sourceMappingURL=food.css.map */

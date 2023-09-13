@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card shadow p-1 mx-auto" style="max-width: 350px;">
+            <h6 class="text-end fst-italic py-2">my calculator</h6>
+            <div class="screen border border-dark rounded p-2 fs-1 font-monospace text-end" style="height: 70px;">
+                0
+            </div>
+
+            <div class="d-flex gap-2 my-2">
+                <button class="btn w-100 btn-danger" id="clear">CE</button>
+                <button class="btn w-100 btn-outline-secondary">(</button>
+                <button class="btn w-100 btn-outline-secondary">)</button>
+                <button class="btn w-100 btn-primary" id="delete">&larr;</button>
+            </div>
+            <div class="row">
+                <div class="col-9">
+                    <div class="d-flex gap-2 my-1">
+                        <button class="btn w-100 btn-outline-secondary">7</button>
+                        <button class="btn w-100 btn-outline-secondary">8</button>
+                        <button class="btn w-100 btn-outline-secondary">9</button>
+                    </div>
+                    <div class="d-flex gap-2 my-1">
+                        <button class="btn w-100 btn-outline-secondary">4</button>
+                        <button class="btn w-100 btn-outline-secondary">5</button>
+                        <button class="btn w-100 btn-outline-secondary">6</button>
+                    </div>
+                    <div class="d-flex gap-2 my-1">
+                        <button class="btn w-100 btn-outline-secondary">1</button>
+                        <button class="btn w-100 btn-outline-secondary">2</button>
+                        <button class="btn w-100 btn-outline-secondary">3</button>
+                    </div>
+                    <div class="d-flex gap-2 my-1">
+                        <button class="btn w-100 btn-outline-secondary">.</button>
+                        <button class="btn w-100 btn-outline-secondary">0</button>
+                        <button class="btn w-100 btn-outline-secondary">+</button>
+                    </div>
+                    <div class="d-flex gap-2 my-1 pb-3">
+                        <button class="btn w-100 btn-dark" id="sqr">&Sqrt;</button>
+                        <button class="btn w-100 btn-dark" id="pi">&pi;r<sup>2</sup></button>
+                        <button class="btn w-100 btn-dark" id="root">x<sup>2</sup></button>
+                    </div>
+                    
+                </div>
+                <div class="col-3 pb-3 ">
+                    <button class="btn btn-success w-100" style="height:100% ;" id="answer">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="java/jsproject9.js"></script>
+</body>
+</html>

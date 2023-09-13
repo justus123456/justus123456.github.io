@@ -1,0 +1,249 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.89);
+  padding-top: 30px;
+  padding-bottom: 2px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  gap: 200px;
+}
+
+nav ul li i {
+  font-size: 30px;
+  color: whitesmoke;
+  padding-left: 20px;
+}
+
+nav ul li i:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+nav ul li #jopp {
+  display: none;
+}
+
+nav ul li .dop {
+  color: whitesmoke;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 30px;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav ul li .flop {
+  font-size: 30px;
+  color: white;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: monospace;
+  list-style: none;
+  text-decoration: none;
+}
+
+.fun {
+  top: 0;
+  border: 1px solid;
+  width: 310px;
+  height: 500px;
+  position: absolute;
+  padding-top: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.89);
+  z-index: 999999;
+  left: -350px;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.fun .xop {
+  list-style: none;
+}
+
+.fun .xop li {
+  list-style: none;
+}
+
+.fun .xop li i {
+  font-size: 40px;
+  padding-left: 10px;
+  color: aqua;
+}
+
+.fun .xop li i:hover {
+  color: crimson;
+}
+
+.fun .jo li {
+  list-style: none;
+  padding-top: 20px;
+}
+
+.fun .jo li .fa-user {
+  font-size: 50px;
+}
+
+.fun .jo li .fa-user:hover {
+  color: crimson;
+}
+
+.fun .jo li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  text-transform: capitalize;
+  font-family: cursive;
+}
+
+.fun .jo li a:hover {
+  color: crimson;
+}
+
+.fun .jo li #raw {
+  border: 1px solid transparent;
+  text-transform: capitalize;
+  color: blue;
+  background-color: wheat;
+}
+
+.fun .jo li #raw:hover {
+  background-color: crimson;
+  color: azure;
+}
+
+.fun .jo li i {
+  font-size: 30px;
+  color: white;
+}
+
+.fun .jo li i:hover {
+  color: crimson;
+}
+
+@media (max-width: 400px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  nav {
+    background-color: rgba(0, 0, 0, 0.89);
+    width: 376px;
+    overflow-x: hidden;
+  }
+  nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    gap: 10px;
+  }
+  nav ul li #glow {
+    display: none;
+  }
+  nav ul li #jopp {
+    display: block;
+    font-size: 20px;
+    color: whitesmoke;
+  }
+  nav ul li #jopp:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  nav ul li .dop {
+    color: whitesmoke;
+    text-transform: capitalize;
+    font-weight: light;
+    font-family: monospace;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+  }
+  nav ul li .flop {
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: light;
+    font-family: monospace;
+    list-style: none;
+    text-decoration: none;
+  }
+  .fun {
+    top: 0;
+    border: 1px solid;
+    width: 110px;
+    height: 250px;
+    position: absolute;
+    padding-top: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.89);
+    z-index: 999999;
+    left: -350px;
+    -webkit-transition: 2s;
+    transition: 2s;
+  }
+  .fun .xop {
+    list-style: none;
+  }
+  .fun .xop li {
+    list-style: none;
+  }
+  .fun .xop li i {
+    font-size: 20px;
+    padding-left: 5px;
+    color: aqua;
+  }
+  .fun .xop li i:hover {
+    color: crimson;
+  }
+  .fun .jo li {
+    list-style: none;
+    padding-top: 20px;
+  }
+  .fun .jo li .fa-user {
+    font-size: 20px;
+  }
+  .fun .jo li .fa-user:hover {
+    color: crimson;
+  }
+  .fun .jo li a {
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    text-transform: capitalize;
+    font-family: cursive;
+  }
+  .fun .jo li a:hover {
+    color: crimson;
+  }
+  .fun .jo li #raw {
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    color: blue;
+    background-color: wheat;
+  }
+  .fun .jo li #raw:hover {
+    background-color: crimson;
+    color: azure;
+  }
+  .fun .jo li i {
+    font-size: 10px;
+    color: white;
+  }
+  .fun .jo li i:hover {
+    color: crimson;
+  }
+}
+/*# sourceMappingURL=dashheadfood.css.map */
