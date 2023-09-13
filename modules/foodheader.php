@@ -15,7 +15,7 @@
             <nav class="two">
                 <ul class="run">
                     <li>
-                        <a href="food" class="gop">
+                        <a href="index" class="gop">
                             <i class="fas fa-truck "></i> food is ready
                         </a>
                     </li>
